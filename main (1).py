@@ -8,7 +8,7 @@ import customer_info/'''
 import os
 
 
-class Hotel:
+class Company:
     def __init__(self, base):
         self.base = base
         pad = 3
@@ -66,6 +66,6 @@ class Hotel:
          '''
 def home_ui():
     base = Tk()
-    application = Hotel(base)
+    application = Company(base)
     
 home_ui()
